@@ -1,0 +1,36 @@
+{
+  "name": "node-avatar-generator-api",
+  "version": "1.0.0",
+  "description": null,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "@babel/preset-env-standalone": "7.2.2",
+    "@babel/preset-react": "latest",
+    "atob": "2.1.2",
+    "b64-to-blob": "1.2.19",
+    "babel-core": "6.26.3",
+    "babel-plugin-hello-world": "1.0.0",
+    "babel-plugin-transform-es2015-constants": "6.1.4",
+    "babel-preset-env": "1.7.0",
+    "blob-util": "2.0.2",
+    "body-parser": "1.19.0",
+    "canvas": "2.4.1",
+    "chroma": "0.0.1",
+    "chroma-js": "2.0.3",
+    "express": "4.16.4",
+    "hsluv": "0.0.3",
+    "kagami": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "colorfull",
+    "avatar",
+    "generator"
+  ]
+}
